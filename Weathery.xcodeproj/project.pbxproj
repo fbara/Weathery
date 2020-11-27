@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD04D0CD257184F1003C0FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD04D0CC257184F1003C0FB1 /* AppDelegate.swift */; };
-		AD04D0CF257184F1003C0FB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD04D0CE257184F1003C0FB1 /* SceneDelegate.swift */; };
-		AD04D0D1257184F1003C0FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD04D0D0257184F1003C0FB1 /* ViewController.swift */; };
-		AD04D0D4257184F1003C0FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD04D0D2257184F1003C0FB1 /* Main.storyboard */; };
+		AD04D0D1257184F1003C0FB1 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD04D0D0257184F1003C0FB1 /* WeatherViewController.swift */; };
 		AD04D0D6257184F4003C0FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD04D0D5257184F4003C0FB1 /* Assets.xcassets */; };
 		AD04D0D9257184F4003C0FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD04D0D7257184F4003C0FB1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		AD04D0C9257184F1003C0FB1 /* Weathery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weathery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD04D0CC257184F1003C0FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD04D0CE257184F1003C0FB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD04D0D0257184F1003C0FB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AD04D0D3257184F1003C0FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD04D0D0257184F1003C0FB1 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		AD04D0D5257184F4003C0FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD04D0D8257184F4003C0FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD04D0DA257184F4003C0FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				AD04D0CC257184F1003C0FB1 /* AppDelegate.swift */,
-				AD04D0CE257184F1003C0FB1 /* SceneDelegate.swift */,
-				AD04D0D0257184F1003C0FB1 /* ViewController.swift */,
-				AD04D0D2257184F1003C0FB1 /* Main.storyboard */,
+				AD04D0D0257184F1003C0FB1 /* WeatherViewController.swift */,
 				AD04D0D5257184F4003C0FB1 /* Assets.xcassets */,
 				AD04D0D7257184F4003C0FB1 /* LaunchScreen.storyboard */,
 				AD04D0DA257184F4003C0FB1 /* Info.plist */,
@@ -126,7 +120,6 @@
 			files = (
 				AD04D0D9257184F4003C0FB1 /* LaunchScreen.storyboard in Resources */,
 				AD04D0D6257184F4003C0FB1 /* Assets.xcassets in Resources */,
-				AD04D0D4257184F1003C0FB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +130,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD04D0D1257184F1003C0FB1 /* ViewController.swift in Sources */,
+				AD04D0D1257184F1003C0FB1 /* WeatherViewController.swift in Sources */,
 				AD04D0CD257184F1003C0FB1 /* AppDelegate.swift in Sources */,
-				AD04D0CF257184F1003C0FB1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AD04D0D2257184F1003C0FB1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD04D0D3257184F1003C0FB1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AD04D0D7257184F4003C0FB1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
